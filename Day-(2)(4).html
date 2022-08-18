@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Box model</title>
+        <style>
+            .one{
+                background-color: lavender;
+               
+            }
+            .grid-container{
+                    
+                    border-bottom:5px solid black;
+                    text-align: center;
+                    
+                }
+            .left{
+            float: left;
+            width: 45%;
+            left: 55%;
+            border-right: 5px solid black;
+            background-color: white;
+
+         }
+         .right{
+            float: right;
+            background-color: lavender;
+            height:435px;
+            width: 54.5%;
+            right:55%;
+         }
+        
+        </style>
+    </head>
+
+
+    <body>
+        <h1>Put Your HTML in a Box</h1>
+        Scott Allen| July1, 2010<br><br>
+
+        <input type="button" value="Button1">
+        <input type="button" value="Button2">
+        <input type="button" value="Button3"><br><br>
+
+
+        The first step to understanding how to positon elements is to understood the:<br>
+
+        <h1>The Box Model</h1>
+        Every element you place on a page creates a box. You cannot always see the each box has properties you an set with CSS. I illustrated some of these.<br>
+
+        <h3>Figure 1 border, padding, and margin</h3>
+        The <i>padding</i> of a box is the distance between the content of the box and it while a margin adds space outside the border in the following css.<br><br>
+
+        The border surrounding every elements is not visible by default, but by using see in Figure 1 is the result of the result of a style rule tellling the browser to draw a solid.
+        <h3>About the Author</h3>
+        Scott Allen is the Principal Consultant and a founder of OdeToCode LLC.
+
+        <h4>Find scott on:</h4>
+            <li>
+            Twitter-
+            <a href="@OdeToCode">@OdeToCode</a> </li><br><li><a href="Scott's Blog">Scott's Blog</a></li>
+
+        <hr>
+        <div class="one">
+        <div class="grid-container">
+        <h1>Put Your HTML in a Box</h1>
+         Scott Allen| July1, 2010
+         </div>
+         
+         <div class="left">
+         <p>The first step in understanding how to positon elements is to understood the fundamental model</p>
+        <h1>The Box Model</h1>
+        <p>Every element you place on a page creates a box. You cannot always see the each box has properties you an set with CSS.I illustrated some of these figure in picture.
+        </p>
+
+        <h2>Figure 1 border, padding, and margin</h2>
+        <p>The padding of a box is the distance between the content of the box and it while a margin adds space outside the border in the following css. </p>
+
+        <p>The border surrounding every elements is not visible by default, but by using see in Figure 1 is the result of
+
+            the result of a style rule tellling the browser to draw a solid.This is why you can see so much white space in figure1. The border
+
+            in the figure1.CSS can change the color of an element's border,as well as the thickness and line style in the browser
+
+            user when drawing the border. What you see in figure 1 is the result of a style rule telling the browser to draw a solid, thin, red line
+
+            around the box that each div element creates.  </p>
+
+           </div>
+           <div class="right">        
+            <h1>About the Author</h1>
+            Scott Allen is the Principal Consultant and a founder of OdeToCode LLC
+           <h1>Find Scott on:</h1>
+            Twitter-
+            <a href="@OdeToCode">@OdeToCode</a> <br><a href="Scott's Blog">Scott's Blog</a>
+            
+            </div>
+        </div>
+            
+        
+        
+    </body>
+</html>
